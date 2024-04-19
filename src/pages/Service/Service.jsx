@@ -1,8 +1,9 @@
-import React from 'react'
+import HeroImg from "../../assets/2.jpg"
+import Hero from "../../components/Hero/Hero"
 
 const Service = () => {
   return (
-    <div>Service</div>
+   <Hero src={HeroImg} classes={'hero_mid'} title={'Nossos serviços'} text={'Confira tudo o que oferecemos a você'}/>
   )
 }
 
