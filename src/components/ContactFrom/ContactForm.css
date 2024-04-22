@@ -1,0 +1,41 @@
+.form_container{
+    margin: 4rem 6rem;
+}
+
+.form_container form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.form_container input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+}
+
+.form_container textarea {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+}
+
+
+.form_container button{
+    display: inline;
+}
+
+
+@media screen and (max-width:850px) {
+    .form_container{
+        margin: 4rem 2rem;
+    }
+    .form_container form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+}
